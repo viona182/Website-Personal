@@ -1,0 +1,94 @@
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    background: #bfe3b4;
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #2c3e50;
+}
+
+form {
+    margin-bottom: 30px;
+    background: linear-gradient(45deg, #0f844b, #ff357a);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+label {
+    display: inline-block;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+select, input[type="number"], input[type="text"] {
+    display: inline-block;
+    margin-right: 15px;
+    padding: 8px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: calc(100% - 20px);
+    box-sizing: border-box;
+}
+
+button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #27ae60;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #1e8449;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+th, td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+}
+
+th {
+    background: linear-gradient(45deg, #0f844b, #ff357a);
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.signature {
+    margin-top: 50px;
+    text-align: right;
+    background-color: #fff;
+    padding: 50px;
+    border-radius: 8px;
+    box-shadow: 0 0px 10px rgba(0,0,0,0.1);
+}
+
+.signature h3 {
+    margin-bottom: 10px;
+}
+
+.signature p {
+    margin: 5px 0;
+    font-size: 18px;
+}
+@media print {
+    #form-input {
+        display: none;
+    }
+}
